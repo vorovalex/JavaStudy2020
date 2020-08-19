@@ -1,4 +1,4 @@
-package com.company.home_work;
+package com.company.home_work_01;
 /*
 1) Создать три переменных (number1, number2, number3) типа int, присвоить им значение 10, 18, 21 соответственно.
 2) Не используя чисел, сделать так, чтобы значение у переменной number1 изменилось на 18
@@ -26,6 +26,25 @@ public class HW_1 {
         System.out.println(number1);
         System.out.println(number2);
         System.out.println(number3);
+
+        byte b = 127;
+        System.out.println(b);
+        short s = 12345;
+        System.out.println(s);
+        char c ='Y';
+        System.out.println(c);
+        int i = 1321546;
+        System.out.println(i);
+        boolean bool = true;//false
+        System.out.println( bool );
+        float f = 12.5F;
+        System.out.println(f);
+        double d = 12.5;
+        System.out.println(d);
+        long l = 1321546465465L;
+        System.out.println(l);
+
+
 
     }
 }

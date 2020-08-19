@@ -1,7 +1,5 @@
 package com.company.lesson_01;
 
-import com.company.Main;
-
 public class Test_01 {
     public static int a = 30;//[30] статик переменная создается в 1 екземпляре. если гдето поменять изменится везде
     public int age = 20; //[][][][][] нон статик создается ячейка для каждого обьекта
@@ -46,6 +44,9 @@ public class Test_01 {
         System.out.println(m1.a);//70
         System.out.println(m2.a);//70
         System.out.println("__________________________");
+        System.out.println("__________________________");
+        System.out.println("__________________________");
+        System.out.println("__________________________");
 
 
 
@@ -55,4 +56,5 @@ public class Test_01 {
         return number1 + number2;
 
     }
+
 }

@@ -1,6 +1,5 @@
-package com.company;
+package com.company.lesson_01;
 
-import java.util.concurrent.SynchronousQueue;
 // public protected deafault private
 public class Main {
     public static int a = 30;//[30] статик переменная создается в 1 екземпляре. если гдето поменять изменится везде
@@ -13,11 +12,11 @@ public class Main {
         int  i = 21545; // 4 byte 32 bit 2*32 stepeni klass obertka = Integer
         boolean bool = false; // libo true/false 4 byte 32 bit 2*32 stepeni = Boolean
         float fl = 12.4f; // nado zakastit'bukvoy 'f' 4 byte 32bit = Float
-        long l = 1222555222l;// nado zakastit bukvoy 'L' 8byte 32 bit 2*64 stepeni = Long
+        long l = 1222555222L;// nado zakastit bukvoy 'L' 8byte 32 bit 2*64 stepeni = Long
         double d = 12.3; // 8 byte = Double
 
         String str = "50";
-        Integer num = new Integer (435);
+
         System.out.println("Hello World!");
         int nm = Integer.parseInt(str);
         System.out.println( nm*2);
